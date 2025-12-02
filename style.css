@@ -1,0 +1,113 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin: 2rem auto 2rem auto;
+    width: 95%;
+    height: 95%;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(8, 8, 8, 0.5);
+} 
+
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+#billAmount {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: thin;
+}
+
+.tip-options{
+margin-top: 1rem;
+padding-bottom: 0.5rem;
+}
+
+#customTip{
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 0.3rem;
+    background-color: blue;
+}
+
+#serviceRating{
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 0.3rem;
+    background-color: blue;
+}
+
+#customerTipAmount {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: thin;
+}
+
+#serviceRatingSelect {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: thin;
+}
+
+#splitCount {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: thin;
+}
+
+#mealtype {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: thin;
+}
+
+h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn {
+    text-align: center;
+}
+
+/* .btn:hover {
+    cursor: pointer;
+} */
+
+.btn button{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 99%;
+    border-width: thin;
+    background-color: brown;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: blue;
+    transition: 0.5s;
+}
