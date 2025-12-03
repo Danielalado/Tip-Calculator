@@ -34,7 +34,7 @@ function submit () {
 }
 
 function toggleDivVisibility() {
-    const serviceRatingRadioButton = document.getElementById("serviceRating");
+    const serviceRatingRadioButton = document.getElementById("serviceRatingSelect");
     const serviceRatingInputDiv = document.getElementById("serviceRatingInput");
 
     if (serviceRatingRadioButton.checked) {

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./image.png">
 </head>
 <body>
    <div class="container">
@@ -46,7 +47,7 @@
 
         <!-- Service rating input style="display: none;"-->
         <div class="input-group" 
-        id="serviceRatingInput">
+        id="serviceRatingInput"  style="display: none;" onclick="toggleDivVisibility()">
             <label for="serviceRatingSelect">Select service rating</label>
             <select id="serviceRatingSelect">
                 <option value="1">Poor</option>
