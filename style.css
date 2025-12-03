@@ -55,17 +55,23 @@ padding-bottom: 0.5rem;
 }
 
 #customerTipAmount {
+    display: flex;
+    flex-direction: column;
     margin-top: 0.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
     border-width: thin;
+    width: 100%;
 }
 
 #serviceRatingSelect {
+    display: flex;
+    flex-direction: column;
     margin-top: 0.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
     border-width: thin;
+    width: 100%;
 }
 
 #splitCount {

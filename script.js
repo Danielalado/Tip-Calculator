@@ -44,3 +44,20 @@ function toggleDivVisibility() {
     }
 
 }
+
+
+const customTip = document.getElementById("customTip");
+    const serviceRating = document.getElementById("serviceRating");
+
+    const customInput = document.getElementById("customerTipInput");
+    const ratingInput = document.getElementById("serviceRatingInput");
+
+    customTip.addEventListener("change", function (){
+        customInput.style.display = "block";
+        ratingInput.style.display = "none";
+    });
+
+    serviceRating.addEventListener("change", function () {
+        customInput.style.display = "none";
+        ratingInput.style.display = "block";
+    });
